@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE torneos>
+<!--Guardamos informacion sobre resultados de un torneo-->
+<torneo>
+    <nombre>Logitech World Cup</nombre>
+    <inicio>13/10/2022</inicio>
+    <finalizacion>15/10/2022</finalizacion>
+    <partido_1 fecha="13/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-3</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_1>
+
+    <partido_2 fecha="14/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-2</set_1>
+            <set_2>6-1</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Ledesma</nombre>
+                <nacionalidad>España</nacionalidad>
+                <altura>175cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Andrea</nombre>
+                <nacionalidad>Italia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_2>
+
+    <partido_3 fecha="15/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-1</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_3>
+
+    <partido_4 fecha="13/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-3</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_4>
+
+    <partido_5 fecha="14/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-3</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_5>
+
+    <partido_6 fecha="15/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-3</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_6>
+
+    <partido_7 fecha="13/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-3</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_7>
+
+    <partido_8 fecha="14/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-3</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_8>
+
+    <partido_9 fecha="15/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-3</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_9>
+
+    <partido_10 fecha="13/10/2022">
+        <sets>
+            <resultado>2-0</resultado>
+            <set_1>6-4</set_1>
+            <set_2>6-3</set_2>
+            <set_3></set_3>
+        </sets>
+        <jugadores>
+            <jugador_1>
+                <nombre>Paco</nombre>
+                <nacionalidad>Montenegro</nacionalidad>
+                <altura>155cm</altura>
+            </jugador_1>
+            <jugador_2>
+                <nombre>Luisma</nombre>
+                <nacionalidad>Francia</nacionalidad>
+                <altura>180cm</altura>
+            </jugador_2>
+        </jugadores>
+    </partido_10>
+</torneo> 

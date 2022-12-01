@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda [
+ <!ELEMENT agenda (contact*)>
+ <!ELEMENT contact (name, landPhone*, mobilePhone+)><!--Corregido: <!ELEMENT contact (name, landPhone*, mobilePhone*)> -->
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT landPhone (#PCDATA)>
+ <!ELEMENT mobilePhone (#PCDATA)>
+]>
+<agenda>
+ <contact>
+ <name>Townhall</name>
+ <landPhone>010</landPhone>
+ </contact>
+ <contact>
+ <name>Emergency</name>
+ <landPhone>112 (European Union)</landPhone>
+ <!--Corregido: <landPhone>911 (USA)</landPhone> -->
+ <mobilePhone>Unknown</mobilePhone>
+ <landPhone>911 (USA)</landPhone>  <!--Corregido: hay que borrarlo ya que lo hemos subido a linea 17 -->
+ </contact>
+</agenda>

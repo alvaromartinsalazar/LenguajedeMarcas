@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE animals [
+<!ELEMENT animals (animal*)><!--Corregido:  <!ELEMENT animals (dog, cat)>-->
+ <!ELEMENT animal (#PCDATA)><!--Corregido:  <!ELEMENT dog (#PCDATA)>-->
+ <!--Corregido:  <!ELEMENT cat (#PCDATA)>-->
+]>
+<animals>
+ <dog>Poodle</dog>
+ <cat>Siamese</cat>
+</animals>
