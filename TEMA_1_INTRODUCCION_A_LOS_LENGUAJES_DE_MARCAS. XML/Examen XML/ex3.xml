@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE direcciones>
+<!---->
+<directorio>
+    <edificio_1 Direccion="C/Manolo Lama 3" Plantas="3">
+        <planta Numero="1" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+        <planta Numero="2" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+        <planta Numero="3" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+    </edificio_1>
+    <edificio_2 Direccion="C/Manolo Lama 3" Plantas="3">
+        <planta Numero="1" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+        <planta Numero="2" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+        <planta Numero="3" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+    </edificio_2>
+    <edificio_3 Direccion="C/Manolo Lama 3" Plantas="3">
+        <planta Numero="1" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+        <planta Numero="2" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+        <planta Numero="3" m_cuadrados="25">
+            <empleados>
+                <empleado_1 Puesto="embalador" ext_tlf="69">
+                    <Nombre>Manoli</Nombre>
+                    <DNI>78945612R</DNI>
+                    <Edad>22</Edad>
+                </empleado_1>
+                <empleado_2 Puesto="logistica" ext_tlf="68">
+                    <Nombre>Eustaquio</Nombre>
+                    <DNI>75485124M</DNI>
+                    <Edad>45</Edad>
+                </empleado_2>
+                <empleado_3 Puesto="teleoperador" ext_tlf="70">
+                    <Nombre>Lola</Nombre>
+                    <DNI>47518625N</DNI>
+                    <Edad>50</Edad>
+                </empleado_3>
+                <empleado_4 Puesto="calidad" ext_tlf="71">
+                    <Nombre>Manuel</Nombre>
+                    <DNI>54512367V</DNI>
+                    <Edad>18</Edad>
+                </empleado_4>
+                <empleado_5 Puesto="recursos humanos" ext_tlf="67">
+                    <Nombre>Sevilla</Nombre>
+                    <DNI>84756245F</DNI>
+                    <Edad>65</Edad>
+                </empleado_5>
+            </empleados>
+        </planta>
+    </edificio_3>
+</directorio>

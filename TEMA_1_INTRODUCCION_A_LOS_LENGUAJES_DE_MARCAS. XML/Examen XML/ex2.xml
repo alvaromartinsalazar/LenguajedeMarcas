@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clusters>
+<!---->
+<cluster>
+    <nodo_1 Nombre="Maquinas">
+        <ip>192.452.412</ip>
+        <maquinas_virtuales>
+            <maquina_1 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_1>
+            <maquina_2 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_2>
+            <maquina_3 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_3>
+        </maquinas_virtuales>
+    </nodo_1>
+
+   <nodo_2 Nombre="Maquinas">
+        <ip>192.452.412</ip>
+        <maquinas_virtuales>
+            <maquina_1 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_1>
+            <maquina_2 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_2>
+            <maquina_3 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_3>
+        </maquinas_virtuales>
+    </nodo_2>
+
+    <nodo_3 Nombre="Maquinas">
+        <ip>192.452.412</ip>
+        <maquinas_virtuales>
+            <maquina_1 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_1>
+            <maquina_2 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_2>
+            <maquina_3 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_3>
+        </maquinas_virtuales>
+    </nodo_3>
+
+    <nodo_4 Nombre="Maquinas">
+        <ip>192.452.412</ip>
+        <maquinas_virtuales>
+            <maquina_1 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_1>
+            <maquina_2 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_2>
+            <maquina_3 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_3>
+        </maquinas_virtuales>
+    </nodo_4>
+
+    <nodo_5 Nombre="Maquinas">
+        <ip>192.452.412</ip>
+        <maquinas_virtuales>
+            <maquina_1 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_1>
+            <maquina_2 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_2>
+            <maquina_3 Nombre="VB69">
+                <sistema_operativo>WINDOWS XP</sistema_operativo>
+                <interfaces_red>
+                    <interfaz_1>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_1>
+                    <interfaz_2>
+                        <ip>412.254.182</ip>
+                        <mac>74-d4-35-2d-6a-56</mac>
+                    </interfaz_2>
+                </interfaces_red>
+            </maquina_3>
+        </maquinas_virtuales>
+    </nodo_5>
+</cluster>
