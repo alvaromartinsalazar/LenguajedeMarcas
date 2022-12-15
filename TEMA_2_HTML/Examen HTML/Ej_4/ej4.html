@@ -1,0 +1,131 @@
+<style>
+    form{
+        border: 3px solid blue;
+        padding: 0px 20px;
+
+    }
+    legend{
+        color: blue;
+        font-weight: bold;
+    }
+    button{
+        margin: 20px 20px;
+    }
+    #error{
+        color: red;
+    }
+
+</style>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <header>
+        <form>
+            <h1>Reservation Request</h1>
+            <fieldset>
+                <legend>General Information</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="id_arrival">Arrival Date:</label>
+                        </td>
+                        <td>
+                            <input type="date" name="arrival" id="id_arrival">
+                        </td>
+                        <td id="error">Arrival date is invalid.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="id_nights">Nights:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="nights" id="id_nights" placeholder="three">
+                        </td>
+                        <td id="error">Nights must be a number.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="id_adults">Adults:</label>
+                        </td>
+                        <td>
+                            <select name="adultos" id="id_adults">
+                                <option value="adults">1</option>
+                                <option value="adults">2</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="id_children">Children:</label>
+                        </td>
+                        <td>
+                            <select name="niños" id="id_children">
+                                <option value="children">0</option>
+                                <option value="children">1</option>
+                                <option value="children">2</option>
+                                <option value="children">3</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <label for="id_roomtype">Room Type:</label>
+                <input type="radio" name="roomtype" id="id_roomtype">Standard
+                <input type="radio" name="roomtype" id="id_roomtype">Business
+                <input type="radio" name="roomtype" id="id_roomtype">Suite <br>
+
+                <label for="id_bedtype">Bed Type:</label>
+                <input type="radio" name="bedtype" id="id_bedtype">King
+                <input type="radio" name="bedtype" id="id_bedtype">Double Double <br>
+
+                <input type="checkbox" name="smoking" id="id_smoking">
+                <label for="id_smoking">Smoking</label>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <table>
+
+                    <tr>
+                        <td>
+                            <label for="id_name">Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="id_name">
+                        </td>
+                        <td id="error">Name is required.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="id_email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="id_email" placeholder="graceyahoo.com">
+                        </td>
+                        <td id="error">Email address is invalid.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="id_phone">Phone:</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="phone" id="id_phone" placeholder="123-456-789">
+                        </td>
+                        <td id="error">Phone number is invalid.</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <button type="submit">Submit Reservation</button>
+            <button type="reset">Clear</button>
+        </form>
+    </header>
+</body>
+</html>

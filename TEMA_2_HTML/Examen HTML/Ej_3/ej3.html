@@ -1,0 +1,68 @@
+<style>
+    table,th,td{
+        border: 2px dashed red;
+    }
+
+    thead,tfoot{
+        background-color: rgb(243, 243, 183);
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Número del catálogo</th>
+                    <th>Nombre</th>
+                    <th>Imagen</th>
+                    <th>Web donde lo encontramos</th>
+                    <th>Tienda</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7821562</td>
+                    <td>Atari Mini</td>
+                    <td><img src="imagenes/monitor.png" alt="monitor"></td>
+                    <td><a href="http://www.ebay.es">http://www.ebay.es</a></td>
+                    <td>E-Bay</td>
+                </tr>
+                <tr>
+                    <td>243243</td>
+                    <td>Super Nintendo Mini</td>
+                    <td><img src="imagenes/nintendo.png" alt="snintendomini"></td>
+                    <td colspan="2" rowspan="3"><a href="http://www.amazon.es">http://www.amazon.es</a></td>
+                </tr>
+                <tr>
+                    <td>593922</td>
+                    <td>Mega Drive Mini</td>
+                    <td><img src="imagenes/sega.png" alt="megadrivemini"></td>
+                </tr>
+                <tr>
+                    <td>293944</td>
+                    <td>PlayStation Mini</td>
+                    <td><img src="imagenes/play.png" alt="PlayStationMini"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Número del catálogo</th>
+                    <th>Nombre</th>
+                    <th>Imagen</th>
+                    <th>Web donde lo encontramos</th>
+                    <th>Tienda</th>
+                </tr>
+            </tfoot>
+        </table>
+    </header>
+</body>
+</html>
