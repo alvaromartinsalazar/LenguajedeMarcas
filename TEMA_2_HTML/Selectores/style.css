@@ -1,0 +1,48 @@
+img{
+    width: 50px;
+    height: 50px;
+}
+
+thead{
+    background-color: blue;
+}
+
+tbody th{
+    background-color: red;
+    color: white;
+}
+
+.GB{
+    font-size: 30px;
+    background-color: gray;
+    padding: 20px 0px;
+}
+
+#lista{
+    color: red;
+}
+
+#cincohoras{
+    padding: 25px 0px;
+    background-color: yellow;
+}
+
+.azul{
+    background-color: blue;
+}
+
+table,td,th{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+td,th{
+    text-align: center;
+}
+
+caption{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
