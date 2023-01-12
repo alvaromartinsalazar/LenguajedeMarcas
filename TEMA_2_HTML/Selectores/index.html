@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/MP3_Logo.png">
+    <title>Tablas</title>
+</head>
+<body>
+    <header>
+        <table>
+            <caption><strong>Ejercicio práctico con Tablas</strong></caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th colspan="3"><img src="imagenes/1.png" alt="" width="100"></th>
+                    <th colspan="2"><img src="imagenes/2.png" alt="" width="100"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Capacidad</th>
+                    <td class="GB">2GB</td>
+                    <td class="GB">4GB</td>
+                    <td class="GB">8GB</td>
+                    <td class="GB">32GB</td>
+                    <td class="GB">2GB</td>
+                </tr>
+                <tr>
+                    <th>Colores</th>
+                    <td style="font-weight: bold">Blanco</td>
+                    <td id="lista">
+                        <ul style="text-align: justify">
+                            <li>Negro</li>
+                            <li>Rosa</li>
+                            <li>Dorado</li>
+                        </ul>
+                    </td>
+                    <td style="font-weight: bold">Negro</td>
+                    <td id="lista" class="azul" colspan="2">
+                        <ul style="text-align: justify">
+                            <li>Negro</li>
+                            <li>Blanco</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Pantalla</th>
+                    <td class="azul" colspan="3" style="font-weight: bold">3 pulgadas</td>
+                    <td class="azul" colspan="2" style="font-weight: bold">7 pulgadas</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Tiempo de Carga</th>
+                    <td class="azul" colspan="3" rowspan="2" style="font-weight: bold">1 hora</td>
+                    <td id="cincohoras" colspan="2" style="font-weight: bold">5 horas</td>
+                </tr>
+                <tr>
+                    <td class="azul" colspan="2" style="font-weight: bold">30 minutos para 75%</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+        </table>          
+    </header>
+    <footer>
+
+    </footer>
+</body>
+</html>
