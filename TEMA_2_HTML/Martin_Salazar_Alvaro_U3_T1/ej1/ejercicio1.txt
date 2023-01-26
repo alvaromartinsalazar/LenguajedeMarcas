@@ -1,0 +1,9 @@
+body: le aplica los estilos a todo el "body" en este caso le aplica un "background-color" para cambiar el color del fondo del body.
+h1: sirve para aplicarle estilos a los titulos principales, en este caso se le aplica un "color" para cambiar el color de la fuente y un "font-size" para cambiarle el tamaño a la fuente, en este caso 20pt.
+hr: se le aplica los estilos a todas las barras separadoras horizontales y en este caso le cambia el color con "color".
+p: sirve para aplicarle los estilos a los pagrafos en este caso le cambia el tamaño a la fuente en este ejercicio 20pt y se le aplica un margen por el lado izquierdo de 15px con margin-left.
+p.verse: se le aplica los estilos a los pagrafos que tengan la clase verse, en este caso se le cambia el color con "color" y un margen izquierdo de 60px con "margin-left".
+a:link: se le aplica los estilos a todos los "a" con un enlace "href" antes de ser visitados y en este caso se le aplica un color verde con "color".
+a:visited: sse le aplica los estilos a todos los "a" con un enlace "href" una vez que son visitados y en este caso se le aplica un color amarillo con "color".
+a:hover: se le aplica los estilos a todos los "a" con un enlace "href" cuando pasas el raton por encima y en este caso se le aplica un color negro con "color".
+a:active: se le aplica los estilos a todos los "a" con un enlace "href" cuando clicas en el peron sin soltar el clic y en este caso se le aplica un color azul con "color".

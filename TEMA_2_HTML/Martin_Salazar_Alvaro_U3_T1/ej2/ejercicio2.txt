@@ -1,0 +1,1 @@
+Porque los dos primeros tienen la clase "verse" y es a este el que se le aplican estilos con "p.verse", en este caso se le cambia el color y el margen de la izquierda. 
