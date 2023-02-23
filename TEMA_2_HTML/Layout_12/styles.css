@@ -1,0 +1,200 @@
+/*GENERALES*/
+*{
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin-right: 0px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h4{
+    color: grey;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*CABECERA*/
+header{
+    display: flex;
+    width: 80%;
+    padding-top: 40px;
+}
+
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+ul li{
+    margin-right: 15px;
+}
+
+header nav ul{
+    display: block;
+}
+
+header nav:first-of-type{
+    margin-left: 0px;
+}
+
+header nav:first-of-type ul{
+    display: flex;
+}
+
+header nav:first-of-type ul li{
+    border-right: 1px solid grey;
+    padding-right: 20px;
+}
+
+header nav:first-of-type ul li:last-child{
+    border-right: 0px;
+}
+
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color: grey;
+}
+
+nav ul li a:hover{
+    color: orangered;
+}
+
+nav:last-child{
+    display: flex;
+    flex-direction: column;
+}
+
+nav:last-child button{
+    width: 176px;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid gray;
+}
+
+nav:last-child button a{
+    text-decoration: none;
+    color: gray;
+}
+
+nav:last-child button a:hover{
+    color: orangered;
+}
+
+header nav:last-child ul{
+    padding: 10px 40px;
+}
+
+/*BODY*/
+#pagina{
+    width: 95%;
+
+}
+
+/*Primera Seccion*/
+section:first-child{
+    display: flex;
+    padding: 40px 100px;
+}
+
+section:first-child{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+   url(imagenes/flores-min.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   color: white;
+}
+
+section:first-child div:first-child{
+    display: block;
+}
+
+section:first-child{
+    background-color: orangered;
+    border-width: 0px;
+    color: white;
+}
+
+section:first-child h2{
+    margin-bottom: 40px;
+}
+
+section:first-child p{
+    width: 70%;
+}
+
+label{
+    float: left;
+}
+
+textarea{
+    width: 169px;
+    height: 40px;
+}
+
+table button{
+    background-color: orangered;
+    border-width: 0px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    width: 60px;
+    height: 20px;
+}
+
+table button:hover{
+    transform: scale(1.1);
+    box-shadow: 1px  1px white;
+    transition: 200ms;
+}
+
+/*Segunda Seccion*/
+#pasos{
+    display: flex;
+    width: 70%;
+}
+
+#pasos div{
+    padding: 10px;
+}
+
+.numeros{
+    display: flex;
+}
+
+.numeros hr:first-child{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.numeros hr:last-child{
+    width: 30px;
+    margin-left: 15px;
+}
+
+.numeros h2{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*Tercera Seccion*/
+section:nth-child(3){
+    background-color: rgb(212, 212, 212);
+    padding: 40px;
+}
