@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+}
+
+/*HEADER*/
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header img{
+    width: 7%;
+}
+
+header i{
+    visibility: collapse;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul li{
+    margin: 0px 3%;
+    font-size: 20px;
+}
+
+/*PRIMERA SECCION*/
+#primera{
+    background-color: #222222;
+    display: flex;
+    padding: 2% 2%;
+    width: 100%;
+    align-items: center;
+}
+
+#primera section:first-child{
+    color: white;
+    text-align: center;
+    width: 32%;
+    margin: 0px auto;
+    order: 1;
+}
+
+#primera section:nth-child(2){
+    background-color: white;
+    width: 40%;
+    margin: 0px auto;
+    order: 0;
+}
+
+/*FORMULARIO PRIMERA SECCION*/
+form{
+    width: 100%;
+    padding: 10px;
+}
+
+form input{
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+form label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form button{
+    width: 100%;
+    background-color: #008214;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    color: white;
+    margin-top: 10px;
+}
+
+/*SEGUNDA SECCION*/
+#segunda{
+    text-align: center;
+    width: 100%;
+}
+
+#segunda p:last-child{
+    border: 1px solid #3321FB;
+    border-radius: 5px;
+    width: 12%;
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+
+#segunda a{
+    text-decoration: none;
+}
+
+/*TERCERA SECCION*/
+#tercera{
+    width: 100%;
+    display: flex;
+}
+
+#tercera > div{
+    width: 50%;
+}
+
+#cajas{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#cajas div{
+    flex: 45%;
+    margin: 0px 10px;
+}
+
+#cajas div:last-child{
+    width: 45%;
+}
+
+/*MEDIA*/
+@media screen and (max-width: 992px) {
+    header img{
+        width: 15%;
+    }
+    
+    header i{
+        visibility: inherit;
+        position: absolute;
+        right: 10px;
+    }
+
+    nav ul{
+        visibility: collapse;
+    }
+    
+    #primera{
+        flex-wrap: wrap;
+    }
+    
+    #primera section:first-child{
+        width: 100%;
+        order: 0;
+        margin-bottom: 10px;
+    }
+    
+    #primera section:nth-child(2){
+        width: 100%;
+        order: 1;
+    }
+
+    #segunda img{
+        margin-top: 25px;
+        width: 50%;
+    }
+
+    #segunda p:last-child{
+        width: 20%;
+    }
+    
+    #tercera{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #tercera img{
+        width: 30%;
+        margin-top: 25px;
+    }
+    
+    #tercera > div{
+        width: 100%;
+    }
+    
+    #cajas div{
+        flex: 100%;
+        margin: 0px 0px 10px;
+    }    
+}
+
+@media screen and (max-width: 576px) {
+    header img{
+        width: 20%;
+    }
+
+    header i{
+        visibility: inherit;
+        position: absolute;
+        right: 10px;
+    }
+
+    nav ul{
+        visibility: collapse;
+    }
+
+    #primera section:first-child{
+        font-size: 16px;
+    }
+    
+    #primera section:nth-child(2){
+        font-size: 14px;
+    }
+    
+    form input{
+        font-size: 14px;
+    }
+    
+    #segunda p:last-child{
+        font-size: 12px;
+        padding: 5px 0px;
+        width: 30%;
+    }
+    
+    #cajas div{
+        flex: 100%;
+        margin: 0px 0px 10px;
+    }    
+
+    #primera section:last-child{
+        background-color: #222222;
+    }
+
+    form label, form input, form p{
+        display: none;
+    }
+}
+
