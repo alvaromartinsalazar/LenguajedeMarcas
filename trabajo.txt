@@ -1,0 +1,31 @@
+# Crear usuarios
+New-LocalUser -Name "Alvaro" -Password (ConvertTo-SecureString "ContraseñaAlvaro" -AsPlainText -Force)
+New-LocalUser -Name "Alberto" -Password (ConvertTo-SecureString "ContraseñaAlberto" -AsPlainText -Force)
+
+# Crear grupos
+New-LocalGroup -Name "Administradores" -Description "Grupo para administradores"
+New-LocalGroup -Name "Programadores" -Description "Grupo para programadores"
+
+# Asignar usuarios a grupos
+Add-LocalGroupMember -Group "Administradores" -Member "Alvaro"
+Add-LocalGroupMember -Group "Programadores" -Member "Alberto"
+
+# Establecer permisos para los usuarios
+$usuarios = @("Alvaro", "Alberto")
+foreach ($usuario in $usuarios) {
+    $folderPathUsuarios = "C:\DesarrolloSoftware\Usuarios\$usuario"
+    $aclUsuarios = Get-Acl -Path $folderPathUsuarios
+    $permissionUsuarios = New-Object System.Security.AccessControl.FileSystemAccessRule($usuario, "Modify", "Allow")
+    $aclUsuarios.SetAccessRule($permissionUsuarios)
+    Set-Acl -Path $folderPathUsuarios -AclObject $aclUsuarios
+}
+
+# Establecer permisos para los grupos
+$grupos = @("Administradores", "Programadores")
+foreach ($grupo in $grupos) {
+    $folderPathGrupos = "C:\DesarrolloSoftware\Grupos\$grupo"
+    $aclGrupos = Get-Acl -Path $folderPathGrupos
+    $permissionGrupos = New-Object System.Security.AccessControl.FileSystemAccessRule($grupo, "FullControl", "Allow")
+    $aclGrupos.SetAccessRule($permissionGrupos)
+    Set-Acl -Path $folderPathGrupos -AclObject $aclGrupos
+}
