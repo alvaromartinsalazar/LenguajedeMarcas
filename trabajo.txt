@@ -29,3 +29,6 @@ foreach ($grupo in $grupos) {
     $aclGrupos.SetAccessRule($permissionGrupos)
     Set-Acl -Path $folderPathGrupos -AclObject $aclGrupos
 }
+
+
+(Get-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST' -filter "system.applicationHost/sites/site[@name='ftp']/virtualDirectory[@path='/']").PhysicalPath
